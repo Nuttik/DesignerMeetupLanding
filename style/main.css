@@ -103,7 +103,7 @@ body{
     background-color: var(--bg-color);
     color: #FFFFFF;
     font-family: 'Satoshi';
-    padding-top: 22px;
+    padding-top: 20px;
     padding-bottom: 28px;
   }
 div[class$='-container']{
@@ -134,7 +134,7 @@ div[class$='-container']{
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1,375rem;
+  line-height: 1.375rem;
 }
 .menu__link:hover{
   color:var(--secondary-text-color);
@@ -150,7 +150,7 @@ div[class$='-container']{
 .logo__text{  
   font-style: normal;
   font-weight: 500;
-  font-size: 1,5rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 .logo__text span{
@@ -162,11 +162,13 @@ div[class$='-container']{
 }
 .button{
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 14px 20px;
   cursor: pointer;
 }
 .button__link{
   display: block;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 .button-pink{
   background-color: var(--main-color);
