@@ -124,7 +124,6 @@ h1{
   -webkit-text-fill-color: transparent;
   color:#67C1F2;
   background-clip: text;
-  text-fill-color: transparent;
 }
 .header__container{
   display: flex;
@@ -240,6 +239,57 @@ h1{
 .button-circle__link_down{
   background: url("../images/down.svg") no-repeat center;
 }
-.button-circle_down:hover, .button-circle_down:active{
+.button-circle__link_down:hover, .button-circle__link_down:active{
   background: url("../images/down-hover.svg") no-repeat center;
+}
+.meet-and-learn{
+  background: url("../images/meet-learn-bg.jpg") no-repeat top center;
+  background-size: cover;
+}
+.meet-and-learn__container{
+  padding-left: 196px;
+  padding-top: 125px;
+  padding-bottom: 35px;
+}
+.meet-and-learn h2{
+  max-width: 40.125rem;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.5rem;
+}
+.feature-list{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.feature-list__item{
+  width: 298px;
+  height: 169px;
+  background: rgba(21, 26, 37, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+div[class^="feature-list__ico"]{
+  min-height:24px;
+  width: 30px;
+}
+.feature-list__ico_speakers{
+  background: url("../images/ico-microphone.svg") no-repeat center;
+}
+.feature-list__ico_sessions{
+  background: url("../images/ico-session.svg") no-repeat center;
+}
+.feature-list__ico_days{
+  background: url("../images/ico-calendar.svg") no-repeat center;
+}
+.feature-list__item p{
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
